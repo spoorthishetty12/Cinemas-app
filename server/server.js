@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const path = require("path")
 const cors = require('cors')
-require("dotenv").config({path:path.resolve( '../.env')});
-const dbConfig = require("./config/dbConfig")
+require("dotenv").config();
+const dbConfig = require("./config/dbConfig");
 
 app.use(cors())
 
