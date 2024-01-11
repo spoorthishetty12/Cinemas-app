@@ -1,10 +1,10 @@
 :root{
-    --colour-primary : rgb(110, 9, 9);
+    --colour-primary : rgb(219, 86, 86);
     --colour-secondary : #9bd610;
 }
 
 .bg-primary{
-    background-color: var(--colour-primary);
+    background: var(--colour-primary);
 }
 
 .bg-secondary{
@@ -47,4 +47,10 @@
 
 .border-secondary{
     border-color: var(--colour-secondary)
+}
+
+.bg-pic{
+    background: url('../assets/blurry-developing-photos-darkroom.jpg') 
+    no-repeat;
+    background-size: cover;
 }

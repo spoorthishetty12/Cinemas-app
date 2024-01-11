@@ -70,6 +70,19 @@ thead th{
     pointer-events: none;
 }
 
+.gap-btw{
+    margin-right: 50px;
+}
+
+.screen{
+    background-color: #79adc2;
+    height: 150px;
+    width: 95%;
+    margin: 15px 0;
+    transform: rotateX(-50deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
 /* loader */
 
 .loader-parent{

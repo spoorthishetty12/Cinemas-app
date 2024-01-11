@@ -42,6 +42,7 @@ function BookShow() {
     
         return (
           <div className="flex gap-1 flex-col p-2 card">
+            <div className="screen"></div>
             {Array.from(Array(rows).keys()).map((seat, index) => {
               return (
                 <div className="flex gap-1 justify-center">
@@ -55,6 +56,10 @@ function BookShow() {
 
                     if (show.bookedSeats.includes(seat * columns + column + 1)) {
                         seatClass = seatClass + " booked-seat";
+                    }
+
+                    if(seatNumber%6 === 0){
+                        seatClass = seatClass + " gap-btw";
                     }
       
                       return (

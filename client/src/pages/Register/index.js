@@ -35,7 +35,7 @@ function Register() {
   }, []);
 
   return (
-    <div className="flex justify-center h-screen items-center bg-primary">
+    <div className="flex justify-center h-screen items-center bg-pic">
       <div className="card p-3 br-5">
         <h1 className="text-xl mb-1"><i className="ri-movie-2-line"> </i>CINEMAS - REGISTER</h1>
         <hr />
